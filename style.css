@@ -7,6 +7,7 @@ body{
 .container{
   display: flex;
   flex-direction: column;
+  margin: auto;
   padding: 10px;
   height: 580px;
   width: 380px;
@@ -17,6 +18,7 @@ body{
 .container > img:nth-child(1){
   padding: 10px;
   border-radius: 10px;
+  clip-path: inset(3% round 10px)
 }
 .text-content{
   display: flex;
@@ -32,12 +34,16 @@ body{
   border-radius: 10px;
   font-weight: bold;
 }
+
 .text-content >p:nth-child(2){
   font-size: 13px;
 }
 .text-content >p:nth-child(3){
   font-size: 20px;
   font-weight: bold;
+
+}
+.text-content >p:nth-child(3):hover{
 }
 .text-content >p:nth-child(4){
   font-size: 15px;
