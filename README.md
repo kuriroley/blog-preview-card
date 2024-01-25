@@ -1,0 +1,1 @@
+A blog preview card challenge
